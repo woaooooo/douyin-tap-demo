@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 运行输出 / 敏感数据
+out/
+*.log
+*.pcap
+*.pcapng
+*.cap
+sslkeylog.txt
+*.keylog
+
+# 工具 / 二进制
+frida-server*
+*.apk
+*.dex
+*.so
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
